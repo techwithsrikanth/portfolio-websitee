@@ -1,39 +1,44 @@
-import Proj1 from "../assets/proj1.jpg";
-import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
+import Proj1 from "../assets/proj1.png";
+import Proj2 from "../assets/proj2.png";
+import Proj3 from "../assets/proj3.png";
+import Proj4 from "../assets/proj4.png";
 import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
+import Proj6 from "../assets/proj6.webp";
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
+    name: "Chat Application",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    skills: "JavaScript, React, MongoDB, Express, CSS",
+    link: "https://github.com/techwithsrikanth/snappy_chat"
   },
   {
-    name: "Ecommerce Website",
+    name: "Fashion Recommender",
     image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    skills: "KNN, Machine Learning",
+    link: "https://github.com/techwithsrikanth/fashion_recommender"
   },
   {
-    name: "Spotify Clone",
+    name: "Zomato Data Analytics",
     image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    skills: "Data preprocessing, PowerBI",
+    link : "https://github.com/techwithsrikanth/Zomato_Data_Analysis"
   },
   {
-    name: "Social Media Website",
+    name: "Financial Analytics",
     image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
+    skills: "PowerBI, Excel",
+    link: "https://github.com/techwithsrikanth/finance-year-analysis"
   },
   {
-    name: "Dashboard Visualizer",
+    name: "Day-Night CycleGAN",
     image: Proj5,
-    skills: "JavaScript,HTML,CSS",
+    skills: "GAN's, Deep Learning for autonomous vehicles",
+    link: "https://github.com/techwithsrikanth/day-night-city"
   },
   {
-    name: "Mobile Game",
+    name: "Realtime Stock Kafka",
     image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
+    skills: "AWS, EC2, S3, Athena, Apache Kafka",
   },
 ];

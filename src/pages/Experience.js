@@ -66,7 +66,7 @@ function Experience() {
             Rajasthan (remote)
           </h4>
           <p>
-            Helped the team develop the entire frontend and also managed to deploy it in AWS S3 and have the website managed it effectively.
+            Helped the team develop the entire frontend and also managed to deploy it in AWS and have the website managed it effectively.
           </p>
         </VerticalTimelineElement>
 

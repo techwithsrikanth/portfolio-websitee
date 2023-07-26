@@ -4,6 +4,9 @@ import Proj3 from "../assets/proj3.png";
 import Proj4 from "../assets/proj4.png";
 import Proj5 from "../assets/proj5.jpg";
 import Proj6 from "../assets/proj6.png";
+import Proj7 from "../assets/proj7.png"
+import Proj8 from "../assets/proj8.jpg"
+import Proj9 from "../assets/proj9.jpg"
 
 export const ProjectList = [
   {
@@ -40,5 +43,20 @@ export const ProjectList = [
     name: "Realtime Stock Kafka",
     image: Proj6,
     skills: "AWS, EC2, S3, Athena, Apache Kafka",
+  },
+  {
+    name: "S3 to Redshift",
+    image: Proj7,
+    skills: "AWS, S3, Glue Job, Glue Data Catalog, Redshift",
+  },
+  {
+    name: "Load Balancer in EC2",
+    image: Proj8,
+    skills: "AWS, EC2, S3, Athena, ALB",
+  },
+  {
+    name: "Generating OTP system AWS",
+    image: Proj9,
+    skills: "AWS, Lambda Functions, Trigger, DynamoDB, TTL, Postman",
   },
 ];

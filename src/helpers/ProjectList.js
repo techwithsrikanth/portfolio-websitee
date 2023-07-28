@@ -7,6 +7,9 @@ import Proj6 from "../assets/proj6.png";
 import Proj7 from "../assets/proj7.png"
 import Proj8 from "../assets/proj8.jpg"
 import Proj9 from "../assets/proj9.jpg"
+import Proj10 from "../assets/proj10.png"
+import Proj11 from "../assets/proj11.png"
+import Proj12 from "../assets/proj12.jpg"
 
 export const ProjectList = [
   {
@@ -58,5 +61,23 @@ export const ProjectList = [
     name: "Generating OTP system AWS",
     image: Proj9,
     skills: "AWS, Lambda Functions, Trigger, DynamoDB, TTL, Postman",
+  },
+  {
+    name: "Food Delivery partners Analytics",
+    image: Proj10,
+    skills: "Python, Data Cleaning, Data Visualization",
+    link: "https://github.com/techwithsrikanth/swiggy_data_science"
+  },
+  {
+    name: "E-commerce Analytics",
+    image: Proj11,
+    skills: "Python, Data Cleaning, Data Visualization, Advanced Cleaning and Data Preprocessing",
+    link: "https://github.com/techwithsrikanth/ecommerce_data_science"
+  },
+  {
+    name: "API News Website",
+    image: Proj12,
+    skills: "API's, Postman, React.js, CSS",
+    link: "https://github.com/techwithsrikanth/newswebsite"
   },
 ];
